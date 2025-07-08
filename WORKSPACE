@@ -4,8 +4,8 @@ workspace(
 
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 
-RULES_HUGO_COMMIT = "54fa9d05e93a5a28f835e297949c1f8544042ec1"
-RULES_HUGO_SHA256 = "690fdb46a4baac5e1b817ff3de24c20da72573ea3cf331d30bc046ac99345e6e"
+RULES_HUGO_COMMIT = "9bed8b236438900331c3aae2d9fdbff43c8c9da0"
+RULES_HUGO_SHA256 = "f94438eb1d193c0b5592bab3051ee5b01445baafd20a80ab113b636e80342ffb"
 
 http_archive(
     name = "rules_hugo",
